@@ -1,0 +1,121 @@
+.despre-noi-bck-test {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../../images/waterfall-by-ruins.jpg');
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .despre-noi{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-despre-noi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+
+    img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .despre-noi-col {
+        padding: 4rem;
+        width: 50%;
+        height: 100%;
+        color: white;
+        h1{
+            padding: 2rem;
+            font-size: 1.4rem;
+        }
+      
+      }
+
+      .textdp{
+       
+        border-radius: 25px;
+      }
+  }
+
+  .rpdoi{
+    flex-direction: row-reverse;
+  }
+  
+}
+
+.dpdoi{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../../images/ice-in-ocean-waters.jpg');
+}
+
+.Programari{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  .buton-about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    background-color: #444;
+    border: 10px solid #333;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,.5);
+    transition: .5s all ease-in-out;
+   a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: whitesmoke;
+   }
+   li{
+    list-style-type: none;
+   }
+   &:hover{
+    border-color: #b7dd56;
+    background-color: #b7dd56;
+    color: #222;
+
+    a{
+      color: black;
+      font-weight: bolder;
+    }
+   }
+  }
+}
+@media screen and (max-width: 1100px){
+  .row-despre-noi {
+    flex-direction: column !important ;
+}
+
+.despre-noi-col{
+  padding: 2rem 0rem !important;
+  width: 100% !important;
+  text-align: center;
+
+
+  img{
+    border-radius: 10px !important;
+    
+  }
+}
+
+.background-unu {
+  width: 80vw;
+  max-width: 500px;
+
+}
+
+.buton-about-us{
+  width: 80% !important;
+  max-width: 500px;
+}
+}

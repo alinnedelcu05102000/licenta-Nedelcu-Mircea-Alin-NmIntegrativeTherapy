@@ -1,0 +1,125 @@
+@mixin navbar-styles-grid{
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        grid-gap:5px;
+        list-style: none;
+        align-items: center;
+}
+
+@mixin navbar{
+    .NavbarItems{
+        z-index: 99;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        box-shadow: 0 5px 15px rgba(0,0,0,.25);
+        width: 95%;
+        height: 9rem;
+        border-radius: 15px;
+        position: fixed;
+        top:1.2rem;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: #222;
+        .NavbarLogo{
+            color: black;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    
+        .nav-menu{
+            padding-right: 1rem;
+            .nav-links{
+                text-decoration: none;
+                color: aliceblue;
+                font-weight: 600;
+                padding: 0.7rem 1rem;
+                white-space: nowrap;
+                transition: .5s all ease-in-out;
+                &:hover{
+                    background-color: #b7dd56;
+                    color: black;
+                    border-radius: 4px;
+                }
+            }
+    
+            .nav-prog{
+                background-color: #555;
+                border-radius: 4px;
+    
+            }
+        }
+    }
+}
+@media screen and (min-width:865px) {
+    @include navbar;
+    .nav-menu{
+        @include navbar-styles-grid;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+}
+
+@media screen  and (max-width:330px){
+    .NavbarItems{
+        max-width: 90vw !important;
+    }
+}
+
+@media screen  and (max-width:865px){
+    @include navbar;
+    .NavbarItems{
+        z-index: 99;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style:none;
+        align-items: center;
+        background-color: greenyellow;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: -500%;
+        left: 0;
+        opacity: 1;
+        padding:  12rem 0 2rem 0;
+        margin: 0;
+        box-shadow: 0 5px 15px rgba(0,0,0,.25);
+        border-radius: 4px;
+
+        .nav-links{
+            display: block;
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 3rem 0;
+            &:hover{
+                background-color: red;
+                transition: none;
+            }
+
+        }
+    }
+
+    .nav-menu.active{
+        top:0;
+        opacity: 1;
+        z-index: -1;
+        transition:  0.3s ease-in-out;
+        background-color: #222;
+    }
+
+    .menu-icon{
+        font-weight: bolder;
+        color: white;
+        font-size: 2rem;
+    }
+
+    img{
+        width: 150px;
+    }
+}

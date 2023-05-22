@@ -1,0 +1,53 @@
+.servicii-pag {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.servicii-pag .servicii-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.servicii-pag .servicii-content .row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.servicii-pag .servicii-content .row .centru-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background-color: #3f3f42;
+  border: 2px solid rgb(168, 168, 168);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.servicii-pag .servicii-content .row .centru-col img {
+  width: 100%;
+  border-radius: 30px;
+  padding: 1rem;
+}
+.servicii-pag .servicii-content .row .centru-col h3 {
+  padding: 1rem 0;
+  text-align: center;
+  color: aliceblue;
+}
+.servicii-pag .servicii-content .row .centru-col p {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+}
+.servicii-pag .servicii-content .Lrow {
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px) {
+  .row {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Services-pag.css.map */

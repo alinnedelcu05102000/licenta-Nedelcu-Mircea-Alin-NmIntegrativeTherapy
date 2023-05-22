@@ -1,0 +1,65 @@
+.despre-noi-bck-test {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../../images/waterfall-by-ruins.jpg");
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.despre-noi-bck-test .despre-noi {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.despre-noi-bck-test .row-despre-noi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+.despre-noi-bck-test .row-despre-noi img {
+  width: 100%;
+  border-radius: 20px;
+}
+.despre-noi-bck-test .row-despre-noi .despre-noi-col {
+  padding: 4rem;
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+.despre-noi-bck-test .row-despre-noi .despre-noi-col h1 {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+.despre-noi-bck-test .row-despre-noi .textdp {
+  border-radius: 25px;
+}
+.despre-noi-bck-test .rpdoi {
+  flex-direction: row-reverse;
+}
+
+.dpdoi {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../../images/ice-in-ocean-waters.jpg");
+}
+
+@media screen and (max-width: 1100px) {
+  .row-despre-noi {
+    flex-direction: column !important;
+  }
+  .despre-noi-col {
+    padding: 2rem 0rem !important;
+    width: 100% !important;
+    text-align: left;
+  }
+  .despre-noi-col img {
+    border-radius: 10px !important;
+  }
+  .background-unu {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=AboutUs.css.map */

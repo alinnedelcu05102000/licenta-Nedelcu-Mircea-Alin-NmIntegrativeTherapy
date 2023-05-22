@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* partea 1 */
+.zona1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.zona1 .poza {
+  background: radial-gradient(rgba(7, 5, 5, 0.7), rgba(34, 32, 32, 0.9725490196)), url("/images/contact.jpg");
+  border-bottom-left-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.zona1 .text-zona1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.zona1 .img {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  border-radius: 3px;
+  height: auto;
+  max-height: 760px;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translatex(-20%);
+}
+
+.zona1 .text {
+  width: 80%;
+}
+.zona1 .text a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #444;
+  height: 75px;
+  border-radius: 7px;
+  width: 100%;
+  max-width: 200px;
+  /* border-radius: 10px; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5%;
+  color: whitesmoke;
+  transition: 0.7s all ease;
+  margin-top: 15%;
+}
+.zona1 .text a:hover {
+  background: whitesmoke;
+  color: #c45e5e;
+  font-weight: bolder;
+}
+
+.zona1 .text p {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  text-align: left;
+  background-color: #222;
+  border-radius: 20px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text h1 {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+.text p {
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1.2rem;
+  padding: 4rem;
+}
+
+/* For devices with width of 480px and less, like phones */
+/* For devices with width between 481px and 768px, like larger phones and portrait tablets */
+@media screen and (max-width: 1160px) {
+  .zona1 {
+    flex-direction: column;
+    height: 100%;
+  }
+  .zona1 .poza {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .zona1 .poza .img {
+    transform: translateX(0%);
+    padding: 3rem 3rem;
+  }
+  .zona1 .text-zona1 {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .zona1 .text {
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+    flex-direction: column;
+  }
+  .zona1 .text p {
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* CSS rules for mobile devices go here */
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* CSS rules for tablets go here */
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  /* CSS rules for laptops go here */
+}
+@media only screen and (min-width: 1280px) {
+  /* CSS rules for desktop computers go here */
+}
+@media only screen and (min-width: 2560px) {
+  /* CSS rules for ultrawide monitors go here */
+}
+.text-home-page {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  width: 80%;
+  margin-top: 1%;
+}
+
+.content-servicii {
+  display: flex;
+  justify-content: center;
+}
+
+.servicii-home {
+  margin: 4rem 6rem;
+  max-width: 1920px;
+}
+.servicii-home .photo {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.servicii-home .photo img {
+  padding: 0.5rem;
+  width: 49%;
+  height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+  box-shadow: -1px -1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+.servicii-home .photo img:nth-child(2) {
+  transform: translateY(-10%);
+}
+.servicii-home h1 {
+  font-size: 3rem;
+}
+.servicii-home .first-serv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+.servicii-home .first-serv .des-text {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+.servicii-home .first-serv .des-text h2 {
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 964px) {
+  .servicii-home {
+    margin: 4rem 2rem;
+  }
+  .servicii-home .first-serv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+  }
+  .servicii-home .first-serv .des-text {
+    width: 100%;
+  }
+  .servicii-home .first-serv .photo {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .servicii-home .first-serv .photo img {
+    height: 250px;
+  }
+}
+/* terapeuti */
+.terapeuti-bck {
+  /* background-image: url('../../images/elegant2.jpg'); */
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../../images/beautiful-nature-7862496.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.terapeuti {
+  width: 80%;
+  max-width: 1920px;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.terapeuti h1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  color: whitesmoke;
+  padding-bottom: 4rem;
+  text-shadow: 6px 6px 10px rgb(117, 117, 117);
+}
+
+.rand-ter {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terapeuti-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.terapeuti-col img {
+  box-shadow: 20px 20px 20px rgba(20, 20, 20, 0.699);
+  border: 1px solid rgb(122, 122, 122);
+  border-radius: 20px;
+  width: 80%;
+  background-color: #222;
+}
+
+.layer {
+  background: transparent;
+  height: 90%;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  transition: 0.7s;
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.7s;
+  background-color: #a0bf54;
+  width: 80%;
+  border-radius: 7px;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+.layer p {
+  width: 100%;
+  font-weight: 900;
+  color: #1f1e1e;
+  font-size: 1rem;
+  bottom: 10px;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.7s;
+  margin-top: 10%;
+}
+
+.layer:hover p {
+  bottom: 49%;
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .rand-ter {
+    flex-direction: column;
+  }
+  .terapeuti-bck {
+    height: 250%;
+  }
+  .layer {
+    height: 100%;
+  }
+  .terapeuti h1 {
+    margin-top: -70px;
+  }
+}
+/* @media only screen and (min-width:768px) and (max-width: 1400px) {
+  .rand-ter {
+      width: 100%;
+  }
+
+  .terapeuti-bck {
+      height: 40%;
+  }
+
+  .terapeuti h1 {
+      margin-top: -100px;
+  }
+
+  .layer {
+      width: 100%;
+      display: none;
+  }
+
+  .terapeuti-col img {
+      width: 110%;
+  }
+} *//*# sourceMappingURL=Home.css.map */

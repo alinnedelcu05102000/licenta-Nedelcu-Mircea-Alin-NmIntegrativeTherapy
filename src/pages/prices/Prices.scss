@@ -1,0 +1,83 @@
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1rem;
+  
+}
+.button {
+  font-weight: bolder;
+  height: 50px;
+  width: 150px;
+  background: transparent;
+  margin: 0 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #444;
+  color: whitesmoke;
+  border: 7px solid #333;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
+}
+
+.button:hover {
+  background-color: #b7dd56;
+  color: black;
+  border-color: #b7dd56;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 35%;
+  padding: 4px 10px;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 4px 10px;
+  border: 7px solid #333;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
+  justify-content: space-between;
+  background-color: #444;
+  color: whitesmoke;
+}
+
+.category {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.active {
+  background-color: #b7dd56;
+  color: black;
+  border-color: #b7dd56;
+
+}
+
+.price{
+  color: greenyellow;
+}
+
+
+@media screen and (max-width:865px) {
+  .item{
+    width: 80%;
+  }
+}
