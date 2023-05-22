@@ -30,13 +30,13 @@
     
         .nav-menu{
             padding-right: 1rem;
+            transition: .5s all ease-in-out;
             .nav-links{
                 text-decoration: none;
                 color: aliceblue;
                 font-weight: 600;
                 padding: 0.7rem 1rem;
                 white-space: nowrap;
-                transition: .5s all ease-in-out;
                 &:hover{
                     background-color: #b7dd56;
                     color: black;
