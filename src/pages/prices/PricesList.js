@@ -111,7 +111,7 @@ export const PricesList =[
     },
 
     {
-        name:"Scurt-Picioare (30 min)",
+        name:"Masaj ''Scurt-Picioare'' (30 min)",
         price:"70 lei",
         category:"remodelare"
     },
