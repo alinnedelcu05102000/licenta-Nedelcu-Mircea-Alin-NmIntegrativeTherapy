@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nmIntegrative/static/css/main.7c3d265c.css",
-    "main.js": "/nmIntegrative/static/js/main.29f17529.js",
+    "main.css": "/nmIntegrative/static/css/main.b3469c6d.css",
+    "main.js": "/nmIntegrative/static/js/main.e70c8160.js",
     "static/js/787.7c6b6858.chunk.js": "/nmIntegrative/static/js/787.7c6b6858.chunk.js",
     "static/media/pexels-david-selbert-8797307.jpg": "/nmIntegrative/static/media/pexels-david-selbert-8797307.cb099ec0b865efbe63c0.jpg",
     "static/media/waterfall-by-ruins.jpg": "/nmIntegrative/static/media/waterfall-by-ruins.4deef80c3abcb9f229e4.jpg",
@@ -32,12 +32,12 @@
     "static/media/MasajVuclanic - Copy.jpg": "/nmIntegrative/static/media/MasajVuclanic - Copy.80f876832ac588f9c3e7.jpg",
     "static/media/logo2.png": "/nmIntegrative/static/media/logo2.bd09944d649a82937fa0.png",
     "index.html": "/nmIntegrative/index.html",
-    "main.7c3d265c.css.map": "/nmIntegrative/static/css/main.7c3d265c.css.map",
-    "main.29f17529.js.map": "/nmIntegrative/static/js/main.29f17529.js.map",
+    "main.b3469c6d.css.map": "/nmIntegrative/static/css/main.b3469c6d.css.map",
+    "main.e70c8160.js.map": "/nmIntegrative/static/js/main.e70c8160.js.map",
     "787.7c6b6858.chunk.js.map": "/nmIntegrative/static/js/787.7c6b6858.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3d265c.css",
-    "static/js/main.29f17529.js"
+    "static/css/main.b3469c6d.css",
+    "static/js/main.e70c8160.js"
   ]
 }
