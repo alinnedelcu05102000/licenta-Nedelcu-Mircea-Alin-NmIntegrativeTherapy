@@ -11,11 +11,11 @@ const Prices = () => {
   const [selectedFilter, setSelectedFilter] = useState(null);
   const [filteredItems, setFilteredItems] = useState([]);
 
-  const filters = ["bioenergie", "biorezonanta", "masaje", "remodelare"];
+  const filters = [ "bioenergie", "biorezonanta", "masaje", "remodelare","toate"];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilter === selectedCategory) {
-      setSelectedFilter(null);
+      return; // If already selected, do nothing
     } else {
       setSelectedFilter(selectedCategory);
     }
@@ -26,7 +26,7 @@ const Prices = () => {
   }, [selectedFilter]);
 
   const filterItems = () => {
-    if (selectedFilter) {
+    if (selectedFilter && selectedFilter !== "toate") {
       const tempItems = PricesList.filter((item) => item.category === selectedFilter);
       setFilteredItems(tempItems);
     } else {
@@ -46,7 +46,7 @@ const Prices = () => {
         {filters.map((category, idx) => (
           <button
             onClick={() => handleFilterButtonClick(category)}
-            className={`button ${selectedFilter === category ? "active" : ""}`}
+            className={`button-price ${selectedFilter === category ? "active" : ""}`}
             key={`filters-${idx}`}
           >
             {category}
@@ -69,6 +69,7 @@ const Prices = () => {
 }
 
 export default Prices;
+
 
 
   

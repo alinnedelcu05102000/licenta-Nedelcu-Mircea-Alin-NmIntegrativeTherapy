@@ -13,7 +13,7 @@
     .span{
         color: whitesmoke;
         font-weight: bolder;
-        font-size: 0.9rem;
+        font-size: 14.4px;
         padding-bottom: 20px;
         padding-top: 20px;
     }
@@ -38,7 +38,7 @@
       flex-direction: column;
       flex-wrap: wrap;
       .f2-span{
-        font-size: 1.1rem;
+        font-size: 17px;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -50,7 +50,7 @@
       }
 
       h1{
-        padding-bottom: 1rem;
+        padding-bottom: 16px;
       }
     }
 
@@ -62,9 +62,9 @@
         flex-direction: column;
         flex-wrap: wrap;
         span{
-            font-size: 1.1rem;
+            font-size: 17px;
             text-align: left;
-            padding: 1rem 10%;
+            padding: 16px 10%;
             
         }
     }
@@ -92,7 +92,7 @@
 
 
     span{
-        font-size: 1.1rem;
+        font-size: 17px;
     }
 }
 
@@ -118,7 +118,7 @@
             text-decoration: none;
             color: whitesmoke;
             text-align: left;
-            font-size: 1.1rem;
+            font-size: 17px;
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -139,7 +139,7 @@
         bottom: unset;
         flex-direction: row;
         border-top-left-radius: 90px;
-        font-size: .9rem;
+        font-size: 14.4px;
         
     }
 
@@ -150,7 +150,7 @@
     }
     .f2-span{
        flex-direction: column-reverse;
-       padding: 2rem;
+       padding: 30px;
         
     }
 

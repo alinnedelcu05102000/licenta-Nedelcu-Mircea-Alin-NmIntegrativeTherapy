@@ -14,14 +14,14 @@ p {
   gap:1rem;
   
 }
-.button {
+.button-price {
   font-weight: bolder;
   height: 50px;
   width: 150px;
   background: transparent;
   margin: 0 1rem;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 16px;
   cursor: pointer;
   background-color: #444;
   color: whitesmoke;
@@ -66,6 +66,7 @@ p {
   border-color: #b7dd56;
 
 }
+
 
 .price{
   color: greenyellow;
