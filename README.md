@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Website centru terapii alternative NM Integrative Therapy
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
