@@ -1,6 +1,7 @@
 # Website centru terapii alternative NM Integrative Therapy
 
-Acest proiect reprezinta versiunea web a lucrarii de licenta, versiunea cu sectiunea de programari nefiind disponibila pe github
+Acest proiect reprezinta versiunea web a lucrarii de licenta din cadrul Facultatii de Stiinte Economice si Gestiunea Afacerilor, specializarea Informatica-Economica.
+Versiunea cu sectiunea de programari pentru prezentarea lucrarii de licenta nu este disponibila pe github
 
 ## Accesare versiune web
 
