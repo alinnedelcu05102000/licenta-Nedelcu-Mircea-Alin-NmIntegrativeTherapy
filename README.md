@@ -1,6 +1,6 @@
 # Website centru terapii alternative NM Integrative Therapy
 
-Acest proiect reprezinta versiunea web a lucrarii de licenta, versiunea cu sectiunea de programari fiind indisponibila pe github pentru o perioada de timp
+Acest proiect reprezinta versiunea web a lucrarii de licenta, versiunea cu sectiunea de programari nefiind disponibila pe github
 
 ## Accesare versiune web
 
